@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.cabecalho {
+    background-color: aqua;
+    height: 103px;
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.lista-menu{
+  display: flex;  
+  gap: 40px;
+margin-right: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.lista-menu li > a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.perfil {
+    background-color: aliceblue;
+    height: 679px;
+    text-align: center;
+
+}
+h1{
+    color: blue;
+}
+.profissão {
+    color: blueviolet;
+    font-size: 25px;
+}
+.descricao {
+   width: 594px; 
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 100%;
+   font-size: 14px;
+   margin-top: 20px;
+}
+img {
+    margin-top: 48px;
+    margin-bottom: 26px;
+}
+
+.container {
+    margin-top: 76px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px;
+} 
+.artigo-formacao {
+    margin-bottom: 50px;
+}
+
+.titulo-secao {
+    color: blue;
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+.titulo-item {
+    padding-left: 32px;
+}
+.link-item {
+    color: blue;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 32px;
+}
+.descricao-item {
+ font-size: 14px;
+ margin-top: 8px;
+ margin-bottom: 53px;
+ padding-left: 32px;
+}
+
+
